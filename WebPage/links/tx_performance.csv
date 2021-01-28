@@ -1,0 +1,14 @@
+SECTION,LINK
+"<a class=""titulo-h2 anchor-bum color-luminati"" name=""item2-2"">2.2 Tx Performance management Use Cases</a>",https://github.com/teleworxllc/NaaSRunBook/blob/gh-pages/Post-Launch%20Engineering/Primers/Network%20Performance%20Management%20Primer.pdf
+2.2.2 Service Degradation,noc.html
+"<a class=""titulo-h2 anchor-bum color-luminati-2"" name=""item3-1"">3.1 Tx Performance Counters and Measurements</a>",network_monitoring_architecture.html
+"<a class=""titulo-h2 anchor-bum color-luminati-2"" name=""item3-2"">3.2 Network Inventory / Topology</a>",noc.html
+"<a class=""titulo-h2 anchor-bum color-luminati-2"" name=""item3-4"">3.4 Tx Configuration</a>",noc.html
+"<a class=""titulo-h2 anchor-bum color-luminati-3"" name=""item4-1"">4.1 Process Overview</a>",noc.html
+"<a class=""titulo-h2 anchor-bum color-luminati-3"" name=""item4-1"">4.1 Process Overview</a>",noc.html
+4.2.2 Availability,tx_ip_architecture.html
+4.2.5 Quality of Service,tx_ip_architecture.html
+"<a class=""titulo-h2 anchor-bum color-luminati-3"" name=""item4-3"">4.3 Tx Performance Management Tools</a>",https://github.com/teleworxllc/NaaSRunBook/blob/gh-pages/Post-Launch%20Engineering/Templates/Tx%20Performance%20Management%20Tool%20List.xlsx
+4.3.1 Network Performance Monitoring System,network_monitoring_architecture.html
+4.3.2 Interfaces Probes Data Analysis,network_monitoring_architecture.html
+4.3.3 Network Inventory Management,noc.html
