@@ -172,7 +172,7 @@
 
             <!-- Page Content Holder -->
             <div id="content">
-                <h2>Module Identification Wizard</h2>
+                <h2>Module Identification</h2>
                 <p class="normal-text">This wizard provides a list of recommended monitoring parameters, reporting intervals and alarm thresholds based on network architecture and KPIs provided by the user.</p>
                 
                 <br>
@@ -1340,7 +1340,9 @@
 
                 if(_1_1_var == true || _1_2_var == true){
                     if(_2_1_var == false){
-                        if(_3_1_1_var == false){
+                        if(_3_1_1_var == true){
+                            tblBody.appendChild(addRow("Strategic Plan & Scope","**High Level Project Plan**"));
+                        }else{
                             tblBody.appendChild(addRow("Strategic Plan & Scope","High Level Project Plan"));
                         }
                     } 
@@ -1393,12 +1395,10 @@
                 if(_1_2_var == true){
                     if(_2_1_9_var == false){
                         if(_3_1_5_var == false){
-                            tblBody.appendChild(addRow("High Level Network Architecture","Network Monitoring Architecture"));
-                        }
-                    }
-                    if(_2_5_vocab_var == true){
-                        if(_3_1_5_var == false){
-                            tblBody.appendChild(addRow("High Level Network Architecture","**Network Monitoring Architecture**"));
+                            if(_2_5_vocab_var == true){
+                                tblBody.appendChild(addRow("High Level Network Architecture","**Network Monitoring Architecture**"));
+                            }else{
+                            tblBody.appendChild(addRow("High Level Network Architecture","Network Monitoring Architecture"));}
                         }
                     }
                 }
@@ -1421,12 +1421,10 @@
                 if(_1_1_var == true || _1_2_var == true || _1_3_var == true){
                     if(_2_2_1_var == false){
                         if((_3_2_1_var && _3_2_2_var) == false){
-                            tblBody.appendChild(addRow("Network Design","RAN HLD"));
-                        }
-                    }
-                    if(_2_6_vocab_var == true){
-                        if((_3_2_1_var && _3_2_2_var) == false){
-                            tblBody.appendChild(addRow("Network Design","**RAN HLD**"));
+                            if(_2_6_vocab_var == true){
+                                tblBody.appendChild(addRow("Network Design","**RAN HLD**"));
+                            }else{
+                            tblBody.appendChild(addRow("Network Design","RAN HLD"));}
                         }
                     }
                 }
@@ -1451,12 +1449,10 @@
                 if(_1_1_var == true || _1_2_var == true || _1_3_var == true){
                     if(_2_2_2_var == false){
                         if((_3_2_3_var && _3_2_4_var && _3_2_5_var && _3_2_6_var) == false){
-                            tblBody.appendChild(addRow("Network Design","Transport HLD"));
-                        }
-                    }
-                    if(_2_7_vocab_var == true){
-                        if((_3_2_3_var && _3_2_4_var && _3_2_5_var && _3_2_6_var) == false){
-                            tblBody.appendChild(addRow("Network Design","**Transport HLD**"));
+                            if(_2_7_vocab_var == true){
+                                tblBody.appendChild(addRow("Network Design","**Transport HLD**"));
+                            }else{
+                            tblBody.appendChild(addRow("Network Design","Transport HLD"));}
                         }
                     }
                 }
@@ -1469,12 +1465,10 @@
                 if(_1_1_var == true || _1_2_var == true || _1_3_var == true){
                     if(_2_2_3_var == false || _2_3_vocab_var == false){
                         if((_3_3_6_var && _3_2_7_var) == false){
-                            tblBody.appendChild(addRow("Network Design","Mobile Core HLD"));
-                        }
-                    }
-                    if(_2_8_vocab_var == true){
-                        if((_3_3_6_var && _3_2_7_var) == false){
-                            tblBody.appendChild(addRow("Network Design","**Mobile Core HLD**"));
+                            if(_2_8_vocab_var == true){
+                                tblBody.appendChild(addRow("Network Design","**Mobile Core HLD**"));
+                            }else{
+                            tblBody.appendChild(addRow("Network Design","Mobile Core HLD"));}
                         }
                     }
                 }
@@ -1597,12 +1591,10 @@
                 if(_1_1_var == true || _1_3_var == true){
                     if((_2_3_1_var || _2_3_2_var || (_2_13_vocab_var < 10)) == false){
                         if((_3_4_2_var && _3_4_3_var && (_3_4_4_var || _3_4_5_var || _3_4_6_var || _3_4_7_var)) == false){
-                            tblBody.appendChild(addRow("Supply Chain Management","RFx Process"));
-                        }
-                    }
-                    if((_2_13_vocab_var > 10 && _2_13_vocab_var < 25) || _2_3_3_var == true){
-                        if((_3_4_2_var && _3_4_3_var && (_3_4_4_var || _3_4_5_var || _3_4_6_var || _3_4_7_var)) == false){
-                            tblBody.appendChild(addRow("Supply Chain Management","**RFx Process**"));
+                            if((_2_13_vocab_var > 10 && _2_13_vocab_var < 25) || _2_3_3_var == true){
+                                tblBody.appendChild(addRow("Supply Chain Management","**RFx Process**"));
+                            }else{
+                            tblBody.appendChild(addRow("Supply Chain Management","RFx Process"));}
                         }
                     }
                 }
@@ -1635,12 +1627,10 @@
                 if(_1_1_var == true || _1_3_var == true){
                     if((_2_3_5_var || (_2_3_6_var && _2_3_7_var) || (_2_5_vocab_var && _2_14_vocab_var)) == false){
                         if((_3_4_8_var || _3_4_9_var) == false){
-                            tblBody.appendChild(addRow("Supply Chain Management","Logistics & Warehousing"));
-                        }
-                    }
-                    if(_2_13_vocab_var < 25){
-                        if((_3_4_8_var || _3_4_9_var) == false){
-                            tblBody.appendChild(addRow("Supply Chain Management","**Logistics & Warehousing**"));
+                            if(_2_13_vocab_var < 25){
+                                tblBody.appendChild(addRow("Supply Chain Management","**Logistics & Warehousing**"));
+                            }else{
+                            tblBody.appendChild(addRow("Supply Chain Management","Logistics & Warehousing"));}
                         }
                     }
                 }
@@ -1670,13 +1660,11 @@
 
                 if(_1_1_var == true || _1_3_var == true){
                     if((_2_3_var) == false){
-                        if((_3_1_1_var && _3_3_9_var) || _3_1_10_var == false){
+                        if((_3_1_1_var && _3_3_9_var) == false){
+                            if(_2_3_8_var == true || _2_3_7_var == true || _2_3_9_var == true || _2_3_10_var == true || _2_3_11_var == true || _3_1_10_var == true){
+                                tblBody.appendChild(addRow("Deployment","**Deployment Management**"));
+                            }
                             tblBody.appendChild(addRow("Deployment","Deployment Management"));
-                        }
-                    }
-                    if(_2_3_8_var == true || _2_3_7_var == true || _2_3_9_var == true || _2_3_10_var == true || _2_3_11_var == true){
-                        if((_3_1_1_var && _3_3_9_var) || _3_1_10_var == false){
-                            tblBody.appendChild(addRow("Deployment","**Deployment Management**"));
                         }
                     }
                 }
@@ -1778,12 +1766,10 @@
                 if(_1_1_var == true || _1_3_var == true){
                     if((_2_4_var) == false){
                         if((_3_5_1_var) == true){
-                            tblBody.appendChild(addRow("Operations & Maintenance","Network Operations Center"));
-                        }
-                    }
-                    if(_2_18_vocab_var == true){
-                        if((_3_5_1_var) == true){
-                            tblBody.appendChild(addRow("Operations & Maintenance","**Network Operations Center**"));
+                            if(_2_18_vocab_var == true){
+                                tblBody.appendChild(addRow("Operations & Maintenance","**Network Operations Center**"));
+                            }else{
+                            tblBody.appendChild(addRow("Operations & Maintenance","Network Operations Center"));}
                         }
                     }
                 }
